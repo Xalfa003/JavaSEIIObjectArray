@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class PFArrays {
-    private static ArrayList<PFArray> arrays = new ArrayList<>();
-    private static Integer selectedIndex = null;
+    public static ArrayList<PFArray> arrays = new ArrayList<>();
+    public static Integer selectedIndex = null;
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
